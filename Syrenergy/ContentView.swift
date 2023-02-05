@@ -10,6 +10,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
+            // frontend stuffs
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
