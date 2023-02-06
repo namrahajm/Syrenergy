@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF29DE6A29805ED100986273 /* SyrenergyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF29DE6929805ED100986273 /* SyrenergyApp.swift */; };
+		FF29DE6C29805ED100986273 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF29DE6B29805ED100986273 /* ContentView.swift */; };
+		FF29DE6E29805ED200986273 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF29DE6D29805ED200986273 /* Assets.xcassets */; };
+		FF29DE7129805ED200986273 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF29DE7029805ED200986273 /* Preview Assets.xcassets */; };
+		FF29DE7B29805ED200986273 /* SyrenergyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF29DE7A29805ED200986273 /* SyrenergyTests.swift */; };
+		FF29DE8529805ED200986273 /* SyrenergyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF29DE8429805ED200986273 /* SyrenergyUITests.swift */; };
+		FF29DE8729805ED200986273 /* SyrenergyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF29DE8629805ED200986273 /* SyrenergyUITestsLaunchTests.swift */; };
+		FF7F883C2988387600E768D9 /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = FF7F883B2988387600E768D9 /* CodeScanner */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF29DE7729805ED200986273 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF29DE5E29805ED100986273 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF29DE6529805ED100986273;
+			remoteInfo = Syrenergy;
+		};
+		FF29DE8129805ED200986273 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF29DE5E29805ED100986273 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF29DE6529805ED100986273;
+			remoteInfo = Syrenergy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF29DE6629805ED100986273 /* Syrenergy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Syrenergy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF29DE6929805ED100986273 /* SyrenergyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyrenergyApp.swift; sourceTree = "<group>"; };
+		FF29DE6B29805ED100986273 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FF29DE6D29805ED200986273 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF29DE7029805ED200986273 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FF29DE7629805ED200986273 /* SyrenergyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SyrenergyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF29DE7A29805ED200986273 /* SyrenergyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyrenergyTests.swift; sourceTree = "<group>"; };
+		FF29DE8029805ED200986273 /* SyrenergyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SyrenergyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF29DE8429805ED200986273 /* SyrenergyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyrenergyUITests.swift; sourceTree = "<group>"; };
+		FF29DE8629805ED200986273 /* SyrenergyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyrenergyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FF7F883D29883F4200E768D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF29DE6329805ED100986273 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF7F883C2988387600E768D9 /* CodeScanner in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF29DE7329805ED200986273 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF29DE7D29805ED200986273 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF29DE5D29805ED100986273 = {
+			isa = PBXGroup;
+			children = (
+				FF29DE6829805ED100986273 /* Syrenergy */,
+				FF29DE7929805ED200986273 /* SyrenergyTests */,
+				FF29DE8329805ED200986273 /* SyrenergyUITests */,
+				FF29DE6729805ED100986273 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF29DE6729805ED100986273 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF29DE6629805ED100986273 /* Syrenergy.app */,
+				FF29DE7629805ED200986273 /* SyrenergyTests.xctest */,
+				FF29DE8029805ED200986273 /* SyrenergyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF29DE6829805ED100986273 /* Syrenergy */ = {
+			isa = PBXGroup;
+			children = (
+				FF7F883D29883F4200E768D9 /* Info.plist */,
+				FF29DE6929805ED100986273 /* SyrenergyApp.swift */,
+				FF29DE6B29805ED100986273 /* ContentView.swift */,
+				FF29DE6D29805ED200986273 /* Assets.xcassets */,
+				FF29DE6F29805ED200986273 /* Preview Content */,
+			);
+			path = Syrenergy;
+			sourceTree = "<group>";
+		};
+		FF29DE6F29805ED200986273 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FF29DE7029805ED200986273 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FF29DE7929805ED200986273 /* SyrenergyTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF29DE7A29805ED200986273 /* SyrenergyTests.swift */,
+			);
+			path = SyrenergyTests;
+			sourceTree = "<group>";
+		};
+		FF29DE8329805ED200986273 /* SyrenergyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FF29DE8429805ED200986273 /* SyrenergyUITests.swift */,
+				FF29DE8629805ED200986273 /* SyrenergyUITestsLaunchTests.swift */,
+			);
+			path = SyrenergyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF29DE6529805ED100986273 /* Syrenergy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF29DE8A29805ED200986273 /* Build configuration list for PBXNativeTarget "Syrenergy" */;
+			buildPhases = (
+				FF29DE6229805ED100986273 /* Sources */,
+				FF29DE6329805ED100986273 /* Frameworks */,
+				FF29DE6429805ED100986273 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Syrenergy;
+			packageProductDependencies = (
+				FF7F883B2988387600E768D9 /* CodeScanner */,
+			);
+			productName = Syrenergy;
+			productReference = FF29DE6629805ED100986273 /* Syrenergy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF29DE7529805ED200986273 /* SyrenergyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF29DE8D29805ED200986273 /* Build configuration list for PBXNativeTarget "SyrenergyTests" */;
+			buildPhases = (
+				FF29DE7229805ED200986273 /* Sources */,
+				FF29DE7329805ED200986273 /* Frameworks */,
+				FF29DE7429805ED200986273 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF29DE7829805ED200986273 /* PBXTargetDependency */,
+			);
+			name = SyrenergyTests;
+			productName = SyrenergyTests;
+			productReference = FF29DE7629805ED200986273 /* SyrenergyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FF29DE7F29805ED200986273 /* SyrenergyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF29DE9029805ED200986273 /* Build configuration list for PBXNativeTarget "SyrenergyUITests" */;
+			buildPhases = (
+				FF29DE7C29805ED200986273 /* Sources */,
+				FF29DE7D29805ED200986273 /* Frameworks */,
+				FF29DE7E29805ED200986273 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF29DE8229805ED200986273 /* PBXTargetDependency */,
+			);
+			name = SyrenergyUITests;
+			productName = SyrenergyUITests;
+			productReference = FF29DE8029805ED200986273 /* SyrenergyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF29DE5E29805ED100986273 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					FF29DE6529805ED100986273 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					FF29DE7529805ED200986273 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = FF29DE6529805ED100986273;
+					};
+					FF29DE7F29805ED200986273 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = FF29DE6529805ED100986273;
+					};
+				};
+			};
+			buildConfigurationList = FF29DE6129805ED100986273 /* Build configuration list for PBXProject "Syrenergy" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF29DE5D29805ED100986273;
+			packageReferences = (
+				FF7F883A2988387600E768D9 /* XCRemoteSwiftPackageReference "CodeScanner" */,
+			);
+			productRefGroup = FF29DE6729805ED100986273 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF29DE6529805ED100986273 /* Syrenergy */,
+				FF29DE7529805ED200986273 /* SyrenergyTests */,
+				FF29DE7F29805ED200986273 /* SyrenergyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF29DE6429805ED100986273 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF29DE7129805ED200986273 /* Preview Assets.xcassets in Resources */,
+				FF29DE6E29805ED200986273 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF29DE7429805ED200986273 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF29DE7E29805ED200986273 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF29DE6229805ED100986273 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF29DE6C29805ED100986273 /* ContentView.swift in Sources */,
+				FF29DE6A29805ED100986273 /* SyrenergyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF29DE7229805ED200986273 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF29DE7B29805ED200986273 /* SyrenergyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF29DE7C29805ED200986273 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF29DE8529805ED200986273 /* SyrenergyUITests.swift in Sources */,
+				FF29DE8729805ED200986273 /* SyrenergyUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF29DE7829805ED200986273 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF29DE6529805ED100986273 /* Syrenergy */;
+			targetProxy = FF29DE7729805ED200986273 /* PBXContainerItemProxy */;
+		};
+		FF29DE8229805ED200986273 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF29DE6529805ED100986273 /* Syrenergy */;
+			targetProxy = FF29DE8129805ED200986273 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FF29DE8829805ED200986273 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FF29DE8929805ED200986273 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF29DE8B29805ED200986273 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Syrenergy/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Syrenergy/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need camera to scan QR Code";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Vanderbilt.Syrenergy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF29DE8C29805ED200986273 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Syrenergy/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Syrenergy/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need camera to scan QR Code";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Vanderbilt.Syrenergy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FF29DE8E29805ED200986273 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Vanderbilt.SyrenergyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Syrenergy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Syrenergy";
+			};
+			name = Debug;
+		};
+		FF29DE8F29805ED200986273 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Vanderbilt.SyrenergyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Syrenergy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Syrenergy";
+			};
+			name = Release;
+		};
+		FF29DE9129805ED200986273 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Vanderbilt.SyrenergyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Syrenergy;
+			};
+			name = Debug;
+		};
+		FF29DE9229805ED200986273 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Vanderbilt.SyrenergyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Syrenergy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF29DE6129805ED100986273 /* Build configuration list for PBXProject "Syrenergy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF29DE8829805ED200986273 /* Debug */,
+				FF29DE8929805ED200986273 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF29DE8A29805ED200986273 /* Build configuration list for PBXNativeTarget "Syrenergy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF29DE8B29805ED200986273 /* Debug */,
+				FF29DE8C29805ED200986273 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF29DE8D29805ED200986273 /* Build configuration list for PBXNativeTarget "SyrenergyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF29DE8E29805ED200986273 /* Debug */,
+				FF29DE8F29805ED200986273 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF29DE9029805ED200986273 /* Build configuration list for PBXNativeTarget "SyrenergyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF29DE9129805ED200986273 /* Debug */,
+				FF29DE9229805ED200986273 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FF7F883A2988387600E768D9 /* XCRemoteSwiftPackageReference "CodeScanner" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/CodeScanner";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FF7F883B2988387600E768D9 /* CodeScanner */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FF7F883A2988387600E768D9 /* XCRemoteSwiftPackageReference "CodeScanner" */;
+			productName = CodeScanner;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = FF29DE5E29805ED100986273 /* Project object */;
+}
